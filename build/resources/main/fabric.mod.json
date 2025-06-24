@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "enders-anvils",
+	"version": "1.0.0",
+	"name": "Ender's Better Anvils",
+	"description": "Changes Anvil cost to use Amethyst shards instead of levels, also helps with the cost of repairing items.",
+	"authors": [
+		"EnderBoy9217"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/enders-anvils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.enderboy9217.anvils.EndersAnvils"
+		],
+		"fabric-datagen": [
+			"com.enderboy9217.anvils.EndersAnvilsDataGenerator"
+		]
+	},
+	"mixins": [
+      "enders-anvils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	com/enderboy9217/anvils/mixin/ScreenMixin	Lnet/minecraft/client/font/TextRenderer;	textRenderer	field_22793
+FIELD	com/enderboy9217/anvils/mixin/AnvilScreenHandlerMixin	I	repairItemUsage	field_7776
+FIELD	com/enderboy9217/anvils/mixin/AnvilScreenHandlerMixin	Lnet/minecraft/screen/Property;	levelCost	field_7770

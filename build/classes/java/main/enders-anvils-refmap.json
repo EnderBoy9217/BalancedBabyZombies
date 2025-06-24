@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "com/enderboy9217/anvils/mixin/AnvilScreenHandlerMixin": {
+      "canTakeOutput": "Lnet/minecraft/class_1706;method_24927(Lnet/minecraft/class_1657;Z)Z",
+      "onTakeOutput": "Lnet/minecraft/class_1706;method_24923(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V",
+      "updateResult": "Lnet/minecraft/class_1706;method_24928()V"
+    },
+    "com/enderboy9217/anvils/mixin/AnvilScreenMixin": {
+      "Lnet/minecraft/client/gui/DrawContext;drawTextWithShadow(Lnet/minecraft/client/font/TextRenderer;Lnet/minecraft/text/Text;III)I": "Lnet/minecraft/class_332;method_27535(Lnet/minecraft/class_327;Lnet/minecraft/class_2561;III)I",
+      "Lnet/minecraft/text/Text;translatable(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/text/MutableText;": "Lnet/minecraft/class_2561;method_43469(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/class_5250;",
+      "drawForeground": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V",
+      "drawForeground(Lnet/minecraft/client/gui/DrawContext;II)V": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/enderboy9217/anvils/mixin/AnvilScreenHandlerMixin": {
+        "canTakeOutput": "Lnet/minecraft/class_1706;method_24927(Lnet/minecraft/class_1657;Z)Z",
+        "onTakeOutput": "Lnet/minecraft/class_1706;method_24923(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V",
+        "updateResult": "Lnet/minecraft/class_1706;method_24928()V"
+      },
+      "com/enderboy9217/anvils/mixin/AnvilScreenMixin": {
+        "Lnet/minecraft/client/gui/DrawContext;drawTextWithShadow(Lnet/minecraft/client/font/TextRenderer;Lnet/minecraft/text/Text;III)I": "Lnet/minecraft/class_332;method_27535(Lnet/minecraft/class_327;Lnet/minecraft/class_2561;III)I",
+        "Lnet/minecraft/text/Text;translatable(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/text/MutableText;": "Lnet/minecraft/class_2561;method_43469(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/class_5250;",
+        "drawForeground": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V",
+        "drawForeground(Lnet/minecraft/client/gui/DrawContext;II)V": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V"
+      }
+    }
+  }
+}
