@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "enders-anvils",
+	"id": "enders-babyzombies",
 	"version": "${version}",
-	"name": "Ender's Better Anvils",
-	"description": "Changes Anvil cost to use Amethyst shards instead of levels, also helps with the cost of repairing items.",
+	"name": "Ender's Balanced Baby Zombies",
+	"description": "Halves baby zombies health and damage to account for their smaller size and faster speed.",
 	"authors": [
 		"EnderBoy9217"
 	],
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/enders-anvils/icon.png",
+	"icon": "assets/enders-babyzombies/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.enderboy9217.anvils.EndersAnvils"
+			"com.enderboy9217.babyzombies.EndersBabyZombies"
 		],
 		"fabric-datagen": [
-			"com.enderboy9217.anvils.EndersAnvilsDataGenerator"
+			"com.enderboy9217.babyzombies.EndersBabyZombiesDataGenerator"
 		]
 	},
 	"mixins": [
-      "enders-anvils.mixins.json"
+      "enders-babyzombies.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
